@@ -46,4 +46,4 @@ class Contact:
 
     #string
     def __str__(self):
-        return self.__first_name+" "+self.__last_name+"\n"+self.__phone_num+"\n"+self.__address+"\n"+self.__city+" "+self.__state+" "+self.__zip
+        return self.__first_name+" "+self.__last_name+"\n"+str(self.__phone_num)+"\n"+str(self.__address)+"\n"+self.__city+" "+self.__state+" "+str(self.__zip)
