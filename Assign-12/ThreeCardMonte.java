@@ -130,7 +130,6 @@ public class ThreeCardMonte{
                                 System.out.println("Games Played: " + played);
                                 System.out.println("Games Won: " + win);
                                 System.out.println("Games Lost: " + lose);
-                                double percentage;
                                 System.out.println("You won 0.0% of the games.");
                                 invalid_option = false;
                                 invalid = false;
